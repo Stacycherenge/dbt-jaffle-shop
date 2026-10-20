@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: api_source
+    database: jaffle_retail
+    schema: raw_source
+    tables:
+      - name: api_crypto_tickers
+        description: Direct stream tracking top cryptocurrencies by market valuation metrics.
